@@ -53,3 +53,12 @@ https://doc.rust-lang.org/
 * ```cargo update``` will ignore Cargo.lock and look for newer versions.
 
 * ```start...=end``` is inclusive in lower and upper bounds.
+
+* Rust allows shadowing and changing variable type. 
+
+* ```trim()``` is a method for a string instance. Removes escaping characters and spaces.
+
+* ```parse()``` is a method for a string instance. It converts the string to another type.
+
+* ```match()``` will return the number if ```parse()``` is able to convert it or continue if there is an error; ```Ok(num)```, ```Err(_)```.
+
